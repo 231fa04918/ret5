@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "builds": [
-    { "src": "api/books.js", "use": "@vercel/node" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/api/books.js" }
-  ]
-}
